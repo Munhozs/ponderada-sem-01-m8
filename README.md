@@ -225,5 +225,6 @@ Imagem 4: LED aceso após toque no botão.
 E, decorrido os 2 segundos, o cenário com o LED apagado volta a ocorrer:
 
 ![LED apagado após 2 segundos do clique no botão](./img/codigo_diagrama_prova_conceito.png)
+Imagem 5: LED apagado após 2 segundos do clique no botão.
 
 Dessa forma, é possível provar como usar a interface SPI do Raspberry Pi Pico W para se comunicar com um sensor simulado. Você pode adaptar esse exemplo para interagir com sensores reais que usam SPI em seus próprios projetos no mundo físico. Nessa perspectiva, é fundamental consultar a documentação e adaptar o código de acordo com o sensor utilizado para um resultado satisfatório.
