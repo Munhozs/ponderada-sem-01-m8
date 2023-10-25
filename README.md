@@ -86,6 +86,7 @@ O Raspberry Pi Pico W possui 40 pinos GPIO que podem ser usados para interagir c
 O Raspberry Pi Pico W é equipado com um conjunto de pinos GPIO que podem ser usados para interagir com diversos dispositivos e periféricos externos. Abaixo, você encontrará um diagrama que mostra o mapeamento de pinos do Raspberry Pi Pico W, incluindo as funções e as características de cada pino:
 
 ![diagrama de pinos do Raspberry Pi Pico W](./img/diagrama_pinos_Raspberry.png) 
+
 Imagem 1: diagrama de pinos do Raspberry Pi Pico W.
 
 ### GPIO (General-Purpose Input/Output)
@@ -208,11 +209,13 @@ Este programa identifica quando botão foi pressionado e automaticamente liga o 
 Cabe ressaltar que a prova de conceito desse manual abordará um simulador do Raspberry Pi Pico W, sendo a plataforma [Wokwi](https://wokwi.com/) utilizada para executar essa prova de conceito. Sendo assim, somente é necessário colocar o código supracitado e fazer a seguinte conexão no Raspberry, respeitando as portas indicadas no código:
 
 ![diagrama físico da prova de conceito](./img/diagrama_fisico_prova_conceito.png)
+
 Imagem 2: diagrama físico da prova de conceito.
 
 Ou seja, a interface final da prova de conceito pode ser visualizada na seguinte imagem:
 
 ![código e diagrama da prova de conceito](./img/codigo_diagrama_prova_conceito.png)
+
 Imagem 3: código e diagrama da prova de conceito.
 
 ### Resultados e Análise
@@ -220,11 +223,13 @@ Imagem 3: código e diagrama da prova de conceito.
 Após a execução do código presente na imagem 3, o seguinte resultado é encontrado, conforme previsto pelo código, após o usuário clicar no botão:
 
 ![LED aceso após toque no botão](./img/LED_aceso.png)
+
 Imagem 4: LED aceso após toque no botão.
 
 E, decorrido os 2 segundos, o cenário com o LED apagado volta a ocorrer:
 
 ![LED apagado após 2 segundos do clique no botão](./img/codigo_diagrama_prova_conceito.png)
+
 Imagem 5: LED apagado após 2 segundos do clique no botão.
 
 Dessa forma, é possível provar como usar a interface SPI do Raspberry Pi Pico W para se comunicar com um sensor simulado. Você pode adaptar esse exemplo para interagir com sensores reais que usam SPI em seus próprios projetos no mundo físico. Nessa perspectiva, é fundamental consultar a documentação e adaptar o código de acordo com o sensor utilizado para um resultado satisfatório.
