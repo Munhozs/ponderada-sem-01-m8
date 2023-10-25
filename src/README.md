@@ -1,0 +1,3 @@
+A presente prova de conceito tem por finalidade demonstrar como desenvolver um programa em MicroPython e manusear o hardware para ser possível acender um LED conectado a um Raspberry Pi Pico W após o usuário clicar em um botão. O LED será desligado automaticamente após 2 segundos, permitindo ao usuário clicar novamente no botão e, com isso, acender o LED novamente.
+
+De forma genérica, a prova de conceito abordada demonstra como utilizar uma interface de comunicação com outros sistemas, a fim de complementar o manual desenvolvido na seção README principal desse repositório.
